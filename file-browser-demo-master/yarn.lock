@@ -761,6 +761,24 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
+"@microsoft/file-browser@^1.0.0-preview.0":
+  version "1.0.0-preview.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/file-browser/-/file-browser-1.0.0-preview.0.tgz#395b0216f61f0b87844cc1dfe816e61617a2a84f"
+  dependencies:
+    tslib "~1.8.0"
+
+"@microsoft/load-themed-styles@^1.7.13":
+  version "1.10.212"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.212.tgz#52b1ace20749841848827e86d521f74ce0fab4e4"
+
+"@microsoft/microsoft-graph-client@^1.2.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/microsoft-graph-client/-/microsoft-graph-client-1.7.0.tgz#6db6ab95060ca0233784ea0de974951b3742dade"
+  dependencies:
+    es6-promise "^4.2.6"
+    isomorphic-fetch "^2.2.1"
+    tslib "^1.9.3"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -893,6 +911,55 @@
     "@types/node" "*"
     "@types/unist" "*"
     "@types/vfile-message" "*"
+
+"@uifabric/foundation@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-0.8.3.tgz#46fc211deb1407436695d0e069d1975073f9e9d3"
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/styling" "^6.50.7"
+    "@uifabric/utilities" "^6.41.7"
+    tslib "^1.7.1"
+
+"@uifabric/icons@^6.5.5":
+  version "6.5.5"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-6.5.5.tgz#5004e037295bcff0768b718a07d0bbd831c1d3a6"
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/styling" "^6.50.7"
+    tslib "^1.7.1"
+
+"@uifabric/merge-styles@^6.19.4":
+  version "6.19.4"
+  resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-6.19.4.tgz#986a068a6109d699831d3adedcf286a0e042cb58"
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    tslib "^1.7.1"
+
+"@uifabric/set-version@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/set-version/-/set-version-1.1.3.tgz#8d1137df1406f38828e597e81122077a16c8da8b"
+  dependencies:
+    tslib "^1.7.1"
+
+"@uifabric/styling@^6.50.7":
+  version "6.50.7"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-6.50.7.tgz#a07c6c88b5b50a5c9dc603b33d76b34ad6fcb507"
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/merge-styles" "^6.19.4"
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/utilities" "^6.41.7"
+    tslib "^1.7.1"
+
+"@uifabric/utilities@^6.41.7", "@uifabric/utilities@^6.45.2":
+  version "6.45.2"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-6.45.2.tgz#671696f8ac6c4db07500b5aed5181d7b07affb25"
+  dependencies:
+    "@uifabric/merge-styles" "^6.19.4"
+    "@uifabric/set-version" "^1.1.3"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -2812,6 +2879,12 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
 
+encoding@^0.1.11:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
+  dependencies:
+    iconv-lite "^0.6.2"
+
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
@@ -2860,6 +2933,10 @@ es-to-primitive@^1.2.0:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
+
+es6-promise@^4.2.6:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -3962,6 +4039,12 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+iconv-lite@^0.6.2:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
 icss-replace-symbols@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
@@ -4385,7 +4468,7 @@ is-root@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-root/-/is-root-2.0.0.tgz#838d1e82318144e5a6f77819d90207645acc7019"
 
-is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
@@ -4440,6 +4523,13 @@ isobject@^2.0.0:
 isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+isomorphic-fetch@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -5423,6 +5513,12 @@ ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
+msal@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/msal/-/msal-0.2.4.tgz#34ac608ebce0415da20ce946297e876ebebebd63"
+  dependencies:
+    tslib "1.7.1"
+
 multicast-dns-service-types@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/multicast-dns-service-types/-/multicast-dns-service-types-1.1.0.tgz#899f11d9686e5e05cb91b35d5f0e63b773cfc901"
@@ -5487,6 +5583,13 @@ no-case@^2.2.0:
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-forge@0.7.5:
   version "0.7.5"
@@ -5713,6 +5816,20 @@ object.values@^1.1.0:
 obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
+
+office-ui-fabric-react@^6.71.0:
+  version "6.214.1"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-6.214.1.tgz#e34831fd968b58fd4620a99012446b4e378ac345"
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/foundation" "^0.8.3"
+    "@uifabric/icons" "^6.5.5"
+    "@uifabric/merge-styles" "^6.19.4"
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/styling" "^6.50.7"
+    "@uifabric/utilities" "^6.45.2"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -6685,7 +6802,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -6872,14 +6989,14 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
-  version "16.8.4"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
+react-dom@^16.8.4:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
+    scheduler "^0.19.1"
 
 react-error-overlay@^5.1.4:
   version "5.1.4"
@@ -6942,14 +7059,13 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
-  version "16.8.4"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
+react@^16.8.4:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7296,7 +7412,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
@@ -7330,9 +7446,9 @@ sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-scheduler@^0.13.4:
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -7996,8 +8112,8 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -8079,9 +8195,21 @@ ts-pnp@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.0.1.tgz#fde74a6371676a167abaeda1ffc0fdb423520098"
 
+tslib@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
+
+tslib@^1.7.1, tslib@^1.9.3:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+
 tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+
+tslib@~1.8.0:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -8484,6 +8612,10 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
 whatwg-fetch@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
+
+whatwg-fetch@>=0.10.0:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
 
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
